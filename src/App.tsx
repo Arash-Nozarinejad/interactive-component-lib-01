@@ -1,8 +1,12 @@
 import ButtonComponentExample from "./components/ButtonComponentExamples";
+import InputComponentExample from "./components/InputComponentExamples";
 
 function App() {
   return (
-    <ButtonComponentExample />
+    <div className="flex">
+      <ButtonComponentExample />
+      <InputComponentExample />
+    </div>
   );
 }
 
