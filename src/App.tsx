@@ -3,6 +3,7 @@ import ButtonComponentExample from "./components/ButtonComponentExamples";
 import CheckboxComponentExamples from "./components/CheckBoxComponentExamples";
 import InputComponentExample from "./components/InputComponentExamples";
 import SelectComponentExamples from "./components/SelectComponentExamples";
+import SelectComponentExamplesUpdated from "./components/SelectComponentExamplesUpdated";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CheckboxComponentExamples />
       <SelectComponentExamples />
       <BageComponentExamples />
+      <SelectComponentExamplesUpdated />
     </div>
   );
 }
