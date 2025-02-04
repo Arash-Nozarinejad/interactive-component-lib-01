@@ -1,5 +1,6 @@
 import BageComponentExamples from "./components/BageComponentExamples";
 import ButtonComponentExample from "./components/ButtonComponentExamples";
+import CardComponentExamples from "./components/CardComponentExamples";
 import CheckboxComponentExamples from "./components/CheckBoxComponentExamples";
 import InputComponentExample from "./components/InputComponentExamples";
 import SelectComponentExamples from "./components/SelectComponentExamples";
@@ -14,6 +15,7 @@ function App() {
       <SelectComponentExamples />
       <BageComponentExamples />
       <SelectComponentExamplesUpdated />
+      <CardComponentExamples />
     </div>
   );
 }
