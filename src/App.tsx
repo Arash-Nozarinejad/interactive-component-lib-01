@@ -1,4 +1,5 @@
 import ButtonComponentExample from "./components/ButtonComponentExamples";
+import CheckboxComponentExamples from "./components/CheckBoxComponentExamples";
 import InputComponentExample from "./components/InputComponentExamples";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="flex">
       <ButtonComponentExample />
       <InputComponentExample />
+      <CheckboxComponentExamples />
     </div>
   );
 }
