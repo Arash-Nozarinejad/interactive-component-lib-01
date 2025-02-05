@@ -8,6 +8,7 @@ import SelectComponentExamples from "./components/SelectComponentExamples";
 import SelectComponentExamplesUpdated from "./components/SelectComponentExamplesUpdated";
 import { TextareaExamples } from "./components/TextareaExampleComponents";
 import ToggleComponentExamples from "./components/ToggleComponentExamples";
+import UseStateHookExample from "./components/atoms/hooks/useStateHookExample";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <RadioComponentExamples />
       <ToggleComponentExamples />
       <TextareaExamples />
+      <UseStateHookExample />
     </div>
   );
 }
