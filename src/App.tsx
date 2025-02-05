@@ -6,6 +6,7 @@ import InputComponentExample from "./components/InputComponentExamples";
 import RadioComponentExamples from "./components/RadioComponentExamples";
 import SelectComponentExamples from "./components/SelectComponentExamples";
 import SelectComponentExamplesUpdated from "./components/SelectComponentExamplesUpdated";
+import { TextareaExamples } from "./components/TextareaExampleComponents";
 import ToggleComponentExamples from "./components/ToggleComponentExamples";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <CardComponentExamples />
       <RadioComponentExamples />
       <ToggleComponentExamples />
+      <TextareaExamples />
     </div>
   );
 }
