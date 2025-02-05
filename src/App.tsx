@@ -6,6 +6,7 @@ import InputComponentExample from "./components/InputComponentExamples";
 import RadioComponentExamples from "./components/RadioComponentExamples";
 import SelectComponentExamples from "./components/SelectComponentExamples";
 import SelectComponentExamplesUpdated from "./components/SelectComponentExamplesUpdated";
+import ToggleComponentExamples from "./components/ToggleComponentExamples";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SelectComponentExamplesUpdated />
       <CardComponentExamples />
       <RadioComponentExamples />
+      <ToggleComponentExamples />
     </div>
   );
 }
