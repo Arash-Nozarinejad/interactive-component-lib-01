@@ -16,6 +16,7 @@ import TooltipComponentExamples from "./components/TooltipComponentExamples";
 import TabCompnentExamples from "./components/TabCompnentExamples";
 import BreadcrumbsComponentExamples from "./components/BreadcrumbsComponentExamples";
 import PaginationComponentExamples from "./components/PaginationComponentExamples";
+import ModalComponentExamples from "./components/ModalComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <TabCompnentExamples />
       <BreadcrumbsComponentExamples />
       <PaginationComponentExamples />
+      <ModalComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
