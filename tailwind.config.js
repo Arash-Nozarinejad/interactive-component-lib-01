@@ -22,20 +22,30 @@ export default {
         'indeterminate-progress': {
           '0%': { transform: 'translateX(-100%)' },
           '100%': { transform: 'translateX(200%)' }
-        }
+        },
+        'spin': {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' },
+        },
+        'pulse': {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '.3' },
+        },
       },
       animation: {
         'slide-in-right': 'slide-in-right 0.3s ease-out',
         'slide-out-right': 'slide-out-right 0.3s ease-out',
         'progress-stripes': 'progress-stripes 1s linear infinite',
-        'indeterminate-progress': 'indeterminate-progress 1.5s ease-in-out infinite'
+        'indeterminate-progress': 'indeterminate-progress 1.5s ease-in-out infinite',
+        'spin': 'spin 1s linear infinite',
+        'pulse': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       backgroundImage: {
         'stripes': 'linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent)',
       },
       backgroundSize: {
         'stripes': '1rem 1rem',
-      }
+      },
     },
   },
   plugins: [],
