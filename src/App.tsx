@@ -12,6 +12,7 @@ import ToggleComponentExamples from "./components/ToggleComponentExamples";
 import { AlertExampleWithProvider } from "./components/AlertComponentExamples";
 import ProgressComponentExamples from "./components/ProgressComponentExamples";
 import SpinnerExamples from "./components/SpinnerComponentExamples";
+import TooltipComponentExamples from "./components/TooltipComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <AlertExampleWithProvider />
       <ProgressComponentExamples />
       <SpinnerExamples />
+      <TooltipComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
