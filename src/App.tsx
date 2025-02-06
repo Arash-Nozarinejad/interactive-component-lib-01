@@ -13,6 +13,7 @@ import { AlertExampleWithProvider } from "./components/AlertComponentExamples";
 import ProgressComponentExamples from "./components/ProgressComponentExamples";
 import SpinnerExamples from "./components/SpinnerComponentExamples";
 import TooltipComponentExamples from "./components/TooltipComponentExamples";
+import TabCompnentExamples from "./components/TabCompnentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <ProgressComponentExamples />
       <SpinnerExamples />
       <TooltipComponentExamples />
+      <TabCompnentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
