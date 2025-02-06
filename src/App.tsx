@@ -19,6 +19,7 @@ import PaginationComponentExamples from "./components/PaginationComponentExample
 import ModalComponentExamples from "./components/ModalComponentExamples";
 import AccordionComponentExamples from "./components/AccordionComponentExamples";
 import TableComponentExamples from "./components/TableComponentExamples";
+import AvatarComponentExamples from "./components/AvatarComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
       <ModalComponentExamples />
       <AccordionComponentExamples />
       <TableComponentExamples />
+      <AvatarComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
