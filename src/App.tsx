@@ -18,6 +18,7 @@ import BreadcrumbsComponentExamples from "./components/BreadcrumbsComponentExamp
 import PaginationComponentExamples from "./components/PaginationComponentExamples";
 import ModalComponentExamples from "./components/ModalComponentExamples";
 import AccordionComponentExamples from "./components/AccordionComponentExamples";
+import TableComponentExamples from "./components/TableComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       <PaginationComponentExamples />
       <ModalComponentExamples />
       <AccordionComponentExamples />
+      <TableComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
