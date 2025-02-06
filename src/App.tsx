@@ -20,6 +20,7 @@ import ModalComponentExamples from "./components/ModalComponentExamples";
 import AccordionComponentExamples from "./components/AccordionComponentExamples";
 import TableComponentExamples from "./components/TableComponentExamples";
 import AvatarComponentExamples from "./components/AvatarComponentExamples";
+import MenuComponentExamples from "./components/MenuComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
       <AccordionComponentExamples />
       <TableComponentExamples />
       <AvatarComponentExamples />
+      <MenuComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
