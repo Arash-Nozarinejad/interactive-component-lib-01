@@ -35,6 +35,10 @@ export default {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' }
         },
+        'zoom-in-95': {
+          '0%': { transform: 'scale(0.95)' },
+          '100%': { transform: 'scale(1)' }
+        },
       },
       animation: {
         'slide-in-right': 'slide-in-right 0.3s ease-out',
@@ -43,7 +47,8 @@ export default {
         'indeterminate-progress': 'indeterminate-progress 1.5s ease-in-out infinite',
         'spin': 'spin 1s linear infinite',
         'pulse': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'fade-in': 'fade-in 0.2s ease-out'
+        'fade-in': 'fade-in 0.3s ease-out',
+        'zoom-in-95': 'zoom-in-95 0.3s ease-out'
       },
       backgroundImage: {
         'stripes': 'linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent)',
