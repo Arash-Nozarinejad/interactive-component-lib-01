@@ -10,6 +10,7 @@ import SelectComponentExamplesUpdated from "./components/SelectComponentExamples
 import { TextareaExamples } from "./components/TextareaExampleComponents";
 import ToggleComponentExamples from "./components/ToggleComponentExamples";
 import { AlertExampleWithProvider } from "./components/AlertComponentExamples";
+import ProgressComponentExamples from "./components/ProgressComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <TextareaExamples />
       <LinkComponentExamples />
       <AlertExampleWithProvider />
+      <ProgressComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
