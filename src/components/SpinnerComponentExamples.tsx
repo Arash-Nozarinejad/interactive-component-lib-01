@@ -1,4 +1,4 @@
-import { Spinner, DotsSpinner } from "./Spinner/Spinner";
+import { Spinner, DotsSpinner } from "./atoms/Spinner/Spinner";
 
 function SpinnerExamples() {
   return (

@@ -1,4 +1,4 @@
-import { Tooltip } from "./Tooltip/Tooltip";
+import { Tooltip } from "./atoms/Tooltip/Tooltip";
 
 function TooltipComponentExamples() {
     return (
