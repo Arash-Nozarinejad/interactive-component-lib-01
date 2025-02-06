@@ -15,6 +15,7 @@ import SpinnerExamples from "./components/SpinnerComponentExamples";
 import TooltipComponentExamples from "./components/TooltipComponentExamples";
 import TabCompnentExamples from "./components/TabCompnentExamples";
 import BreadcrumbsComponentExamples from "./components/BreadcrumbsComponentExamples";
+import PaginationComponentExamples from "./components/PaginationComponentExamples";
 // import UseStateHookExample from "./components/atoms/hooks/UseStateHookExample";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <TooltipComponentExamples />
       <TabCompnentExamples />
       <BreadcrumbsComponentExamples />
+      <PaginationComponentExamples />
       {/* <UseStateHookExample /> */}
     </div>
   );
